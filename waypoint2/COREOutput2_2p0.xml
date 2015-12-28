@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rsm:COREOutput2 xmlns:rsm="urn:un:unece:uncefact:data:standard:COREOutput2:2"
+    xmlns:qdt="urn:un:unece:uncefact:data:standard:QualifiedDataType:17"
+    xmlns:ram="urn:un:unece:uncefact:data:standard:ReusableAggregateBusinessInformationEntity:16">
+  <rsm:HeaderExchangedDocument>
+    <ram:IssuerTradeParty>
+      <ram:ID>XXXXXXXXXX</ram:ID>
+      <ram:RoleCode>AA</ram:RoleCode>
+    </ram:IssuerTradeParty>
+  </rsm:HeaderExchangedDocument>
+  <rsm:ExchangedDeclaration>
+    <ram:TypeCode listID="1001" listAgencyID="6">1</ram:TypeCode>
+    <ram:DeclarantTradeParty>
+      <ram:ID schemeID="XXXXXXXXXX" schemeAgencyID="XXXXXXXXXX">XXXXXXXXXX</ram:ID>
+      <ram:Name languageID="XXXXXXXXXX">XXXXXXXXXX</ram:Name>
+      <ram:PostalTradeAddress>
+        <ram:PostcodeCode listID="XXXXXXXXXX" listAgencyID="XXXXXXXXXX">XXXXXXXXXX</ram:PostcodeCode>
+        <ram:StreetName>XXXXXXXXXX</ram:StreetName>
+        <ram:CityName>XXXXXXXXXX</ram:CityName>
+        <ram:CountryID schemeID="XXXXXXXXXX" schemeAgencyID="5">AD</ram:CountryID>
+        <ram:CountrySubDivisionName>XXXXXXXXXX</ram:CountrySubDivisionName>
+      </ram:PostalTradeAddress>
+      <ram:SpecifiedGovernmentRegistration>
+        <ram:CountryID>XXXXXXXXXX</ram:CountryID>
+      </ram:SpecifiedGovernmentRegistration>
+    </ram:DeclarantTradeParty>
+    <ram:DeclarantAgentTradeParty>
+      <ram:ID schemeID="XXXXXXXXXX" schemeAgencyID="XXXXXXXXXX">XXXXXXXXXX</ram:ID>
+      <ram:Name languageID="XXXXXXXXXX">XXXXXXXXXX</ram:Name>
+      <ram:PostalTradeAddress>
+        <ram:PostcodeCode listID="XXXXXXXXXX" listAgencyID="XXXXXXXXXX">XXXXXXXXXX</ram:PostcodeCode>
+        <ram:StreetName>XXXXXXXXXX</ram:StreetName>
+        <ram:CityName>XXXXXXXXXX</ram:CityName>
+        <ram:CountryID schemeID="XXXXXXXXXX" schemeAgencyID="5">AD</ram:CountryID>
+        <ram:CountrySubDivisionName>XXXXXXXXXX</ram:CountrySubDivisionName>
+      </ram:PostalTradeAddress>
+      <ram:SpecifiedGovernmentRegistration>
+        <ram:CountryID schemeID="XXXXXXXXXX" schemeAgencyID="XXXXXXXXXX">XXXXXXXXXX</ram:CountryID>
+      </ram:SpecifiedGovernmentRegistration>
+    </ram:DeclarantAgentTradeParty>
+    <ram:PrincipalAssociatedTradeParty>
+      <ram:ID schemeID="XXXXXXXXXX" schemeAgencyID="XXXXXXXXXX">XXXXXXXXXX</ram:ID>
+      <ram:Name languageID="XXXXXXXXXX">XXXXXXXXXX</ram:Name>
+      <ram:RoleCode listID="3035" listAgencyID="6">EX</ram:RoleCode>
+      <ram:PostalTradeAddress>
+        <ram:PostcodeCode listID="XXXXXXXXXX" listAgencyID="XXXXXXXXXX">XXXXXXXXXX</ram:PostcodeCode>
+        <ram:StreetName>XXXXXXXXXX</ram:StreetName>
+        <ram:CityName>XXXXXXXXXX</ram:CityName>
+        <ram:CountryID schemeID="XXXXXXXXXX" schemeAgencyID="5">AD</ram:CountryID>
+        <ram:CountrySubDivisionName>XXXXXXXXXX</ram:CountrySubDivisionName>
+      </ram:PostalTradeAddress>
+    </ram:PrincipalAssociatedTradeParty>
+  </rsm:ExchangedDeclaration>
+  <rsm:SpecifiedLogisticsTransportMovement>
+    <ram:DepartureTransportEvent>
+      <ram:ActualOccurrenceDateTime>
+        <qdt:DateTimeString format="205">XXXXXXXXXX</qdt:DateTimeString>
+      </ram:ActualOccurrenceDateTime>
+    </ram:DepartureTransportEvent>
+    <ram:UsedLogisticsTransportMeans>
+      <ram:ISPSSecurityLevelCode listID="XXXXXXXXXX" listAgencyID="XXXXXXXXXX">XXXXXXXXXX</ram:ISPSSecurityLevelCode>
+      <ram:RegistrationTradeCountry>
+        <ram:ID schemeID="XXXXXXXXXX" schemeAgencyID="5">AD</ram:ID>
+        <ram:Name languageID="XXXXXXXXXX">XXXXXXXXXX</ram:Name>
+      </ram:RegistrationTradeCountry>
+    </ram:UsedLogisticsTransportMeans>
+    <ram:ItineraryTransportRoute>
+      <ram:ItineraryStopTransportEvent>
+        <ram:EstimatedOccurrenceDateTime>
+          <qdt:DateTimeString format="XXXXXXXXXX">XXXXXXXXXX</qdt:DateTimeString>
+        </ram:EstimatedOccurrenceDateTime>
+        <ram:OccurrenceLogisticsLocation>
+          <ram:CountryID schemeID="XXXXXXXXXX" schemeAgencyID="XXXXXXXXXX">XXXXXXXXXX</ram:CountryID>
+        </ram:OccurrenceLogisticsLocation>
+      </ram:ItineraryStopTransportEvent>
+    </ram:ItineraryTransportRoute>
+  </rsm:SpecifiedLogisticsTransportMovement>
+  <rsm:SpecifiedSupplyChainConsignment>
+    <ram:ID>XXXXXXXXXX</ram:ID>
+    <ram:GrossWeightMeasure unitCode="KGM">23</ram:GrossWeightMeasure>
+    <ram:NetWeightMeasure unitCode="KGM">23</ram:NetWeightMeasure>
+    <ram:GrossVolumeMeasure>23</ram:GrossVolumeMeasure>
+    <ram:CarrierTradeParty>
+      <ram:DefinedTradeContact>
+        <ram:PersonName>XXXXXXXXXX</ram:PersonName>
+        <ram:DepartmentName>XXXXXXXXXX</ram:DepartmentName>
+        <ram:TelephoneUniversalCommunication>
+          <ram:CompleteNumber>XXXXXXXXXX</ram:CompleteNumber>
+        </ram:TelephoneUniversalCommunication>
+        <ram:EmailURIUniversalCommunication>
+          <ram:URIID>XXXXXXXXXX</ram:URIID>
+        </ram:EmailURIUniversalCommunication>
+      </ram:DefinedTradeContact>
+      <ram:PostalTradeAddress>
+        <ram:PostcodeCode listID="XXXXXXXXXX" listAgencyID="XXXXXXXXXX">XXXXXXXXXX</ram:PostcodeCode>
+        <ram:StreetName>XXXXXXXXXX</ram:StreetName>
+        <ram:CityName>XXXXXXXXXX</ram:CityName>
+        <ram:CountryID schemeID="XXXXXXXXXX" schemeAgencyID="5">AD</ram:CountryID>
+        <ram:CountrySubDivisionName>XXXXXXXXXX</ram:CountrySubDivisionName>
+      </ram:PostalTradeAddress>
+      <ram:TelephoneUniversalCommunication>
+        <ram:CompleteNumber>XXXXXXXXXX</ram:CompleteNumber>
+      </ram:TelephoneUniversalCommunication>
+      <ram:SpecifiedGovernmentRegistration>
+        <ram:TypeCode listID="XXXXXXXXXX" listAgencyID="XXXXXXXXXX">XXXXXXXXXX</ram:TypeCode>
+        <ram:CountryID>XXXXXXXXXX</ram:CountryID>
+        <ram:ValiditySpecifiedPeriod>
+          <ram:EndDateTime>
+            <qdt:DateTimeString format="XXXXXXXXXX">XXXXXXXXXX</qdt:DateTimeString>
+          </ram:EndDateTime>
+        </ram:ValiditySpecifiedPeriod>
+      </ram:SpecifiedGovernmentRegistration>
+    </ram:CarrierTradeParty>
+    <ram:DeliveryTradeParty>
+      <ram:ID schemeID="XXXXXXXXXX" schemeAgencyID="XXXXXXXXXX">XXXXXXXXXX</ram:ID>
+      <ram:Name languageID="XXXXXXXXXX">XXXXXXXXXX</ram:Name>
+      <ram:DefinedTradeContact>
+        <ram:PersonName>XXXXXXXXXX</ram:PersonName>
+        <ram:DepartmentName>XXXXXXXXXX</ram:DepartmentName>
+        <ram:TelephoneUniversalCommunication>
+          <ram:CompleteNumber>XXXXXXXXXX</ram:CompleteNumber>
+        </ram:TelephoneUniversalCommunication>
+        <ram:EmailURIUniversalCommunication>
+          <ram:URIID>XXXXXXXXXX</ram:URIID>
+        </ram:EmailURIUniversalCommunication>
+      </ram:DefinedTradeContact>
+      <ram:PostalTradeAddress>
+        <ram:PostcodeCode listID="XXXXXXXXXX" listAgencyID="XXXXXXXXXX">XXXXXXXXXX</ram:PostcodeCode>
+        <ram:StreetName>XXXXXXXXXX</ram:StreetName>
+        <ram:CityName>XXXXXXXXXX</ram:CityName>
+        <ram:CountryID schemeID="XXXXXXXXXX" schemeAgencyID="5">AD</ram:CountryID>
+        <ram:CountrySubDivisionName>XXXXXXXXXX</ram:CountrySubDivisionName>
+      </ram:PostalTradeAddress>
+      <ram:TelephoneUniversalCommunication>
+        <ram:CompleteNumber>XXXXXXXXXX</ram:CompleteNumber>
+      </ram:TelephoneUniversalCommunication>
+      <ram:SpecifiedGovernmentRegistration>
+        <ram:TypeCode listID="XXXXXXXXXX" listAgencyID="XXXXXXXXXX">XXXXXXXXXX</ram:TypeCode>
+        <ram:CountryID>XXXXXXXXXX</ram:CountryID>
+        <ram:ValiditySpecifiedPeriod>
+          <ram:EndDateTime>
+            <qdt:DateTimeString format="XXXXXXXXXX">XXXXXXXXXX</qdt:DateTimeString>
+          </ram:EndDateTime>
+        </ram:ValiditySpecifiedPeriod>
+      </ram:SpecifiedGovernmentRegistration>
+    </ram:DeliveryTradeParty>
+    <ram:TransportContractReferencedDocument>
+      <ram:ID>XXXXXXXXXX</ram:ID>
+    </ram:TransportContractReferencedDocument>
+    <ram:IncludedReferencedSupplyChainConsignment>
+      <ram:CustomsID schemeID="XXXXXXXXXX" schemeName="XXXXXXXXXX" schemeAgencyID="XXXXXXXXXX" schemeAgencyName="XXXXXXXXXX" schemeVersionID="XXXXXXXXXX" schemeDataURI="http://www.w3.org/TR/xmlschema-0/" schemeURI="http://www.w3.org/TR/xmlschema-0/">XXXXXXXXXX</ram:CustomsID>
+      <ram:ConsignorTradeParty/>
+      <ram:ConsigneeTradeParty/>
+    </ram:IncludedReferencedSupplyChainConsignment>
+    <ram:UtilizedLogisticsTransportEquipment>
+      <ram:ID>XXXXXXXXXX</ram:ID>
+    </ram:UtilizedLogisticsTransportEquipment>
+    <ram:TransportLogisticsPackage/>
+    <ram:ApplicableCrossBorderRegulatoryProcedure>
+      <ram:EntryCustomsOfficeSpecifiedLogisticsLocation>
+        <ram:ID schemeID="XXXXXXXXXX" schemeAgencyID="XXXXXXXXXX">XXXXXXXXXX</ram:ID>
+      </ram:EntryCustomsOfficeSpecifiedLogisticsLocation>
+      <ram:ExitCustomsOfficeSpecifiedLogisticsLocation>
+        <ram:ID schemeID="XXXXXXXXXX" schemeAgencyID="XXXXXXXXXX">XXXXXXXXXX</ram:ID>
+      </ram:ExitCustomsOfficeSpecifiedLogisticsLocation>
+    </ram:ApplicableCrossBorderRegulatoryProcedure>
+  </rsm:SpecifiedSupplyChainConsignment>
+</rsm:COREOutput2>

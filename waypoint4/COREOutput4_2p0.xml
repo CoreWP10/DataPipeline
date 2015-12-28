@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rsm:COREOutput4 xmlns:rsm="urn:un:unece:uncefact:data:standard:COREOutput4:2"
+    xmlns:qdt="urn:un:unece:uncefact:data:standard:QualifiedDataType:17"
+    xmlns:ram="urn:un:unece:uncefact:data:standard:ReusableAggregateBusinessInformationEntity:16">
+  <rsm:HeaderExchangedDocument>
+    <ram:IssuerTradeParty>
+      <ram:ID>XXXXXXXXXX</ram:ID>
+      <ram:RoleCode>AA</ram:RoleCode>
+    </ram:IssuerTradeParty>
+  </rsm:HeaderExchangedDocument>
+  <rsm:ExchangedDeclaration>
+    <ram:TypeCode>1</ram:TypeCode>
+  </rsm:ExchangedDeclaration>
+  <rsm:SpecifiedSupplyChainConsignment>
+    <ram:IncludedReferencedSupplyChainConsignment>
+      <ram:IncludedReferencedSupplyChainConsignmentItem>
+        <ram:TradeLineItemQuantity>23</ram:TradeLineItemQuantity>
+        <ram:IncludedSupplyChainTradeLineItem>
+          <ram:SequenceNumeric>23</ram:SequenceNumeric>
+          <ram:SpecifiedTradeProduct>
+            <ram:DesignatedProductClassification>
+              <ram:SystemID schemeID="XXXXXXXXXX" schemeAgencyID="XXXXXXXXXX">XXXXXXXXXX</ram:SystemID>
+              <ram:ClassCode listID="XXXXXXXXXX" listAgencyID="XXXXXXXXXX">XXXXXXXXXX</ram:ClassCode>
+            </ram:DesignatedProductClassification>
+          </ram:SpecifiedTradeProduct>
+        </ram:IncludedSupplyChainTradeLineItem>
+      </ram:IncludedReferencedSupplyChainConsignmentItem>
+      <ram:ConsignorTradeParty/>
+      <ram:ConsigneeTradeParty/>
+      <ram:DeliveryTradeParty>
+        <ram:ID schemeID="XXXXXXXXXX" schemeAgencyID="XXXXXXXXXX">XXXXXXXXXX</ram:ID>
+        <ram:Name languageID="XXXXXXXXXX">XXXXXXXXXX</ram:Name>
+        <ram:DefinedTradeContact>
+          <ram:PersonName>XXXXXXXXXX</ram:PersonName>
+          <ram:DepartmentName>XXXXXXXXXX</ram:DepartmentName>
+          <ram:TelephoneUniversalCommunication>
+            <ram:CompleteNumber>XXXXXXXXXX</ram:CompleteNumber>
+          </ram:TelephoneUniversalCommunication>
+          <ram:EmailURIUniversalCommunication>
+            <ram:URIID>XXXXXXXXXX</ram:URIID>
+          </ram:EmailURIUniversalCommunication>
+        </ram:DefinedTradeContact>
+        <ram:PostalTradeAddress>
+          <ram:PostcodeCode listID="XXXXXXXXXX" listAgencyID="XXXXXXXXXX">XXXXXXXXXX</ram:PostcodeCode>
+          <ram:StreetName>XXXXXXXXXX</ram:StreetName>
+          <ram:CityName>XXXXXXXXXX</ram:CityName>
+          <ram:CountryID schemeID="XXXXXXXXXX" schemeAgencyID="5">AD</ram:CountryID>
+          <ram:CountrySubDivisionName>XXXXXXXXXX</ram:CountrySubDivisionName>
+        </ram:PostalTradeAddress>
+        <ram:TelephoneUniversalCommunication>
+          <ram:CompleteNumber>XXXXXXXXXX</ram:CompleteNumber>
+        </ram:TelephoneUniversalCommunication>
+        <ram:SpecifiedGovernmentRegistration>
+          <ram:TypeCode listID="XXXXXXXXXX" listAgencyID="XXXXXXXXXX">XXXXXXXXXX</ram:TypeCode>
+          <ram:CountryID>XXXXXXXXXX</ram:CountryID>
+          <ram:ValiditySpecifiedPeriod>
+            <ram:EndDateTime>
+              <qdt:DateTimeString format="XXXXXXXXXX">XXXXXXXXXX</qdt:DateTimeString>
+            </ram:EndDateTime>
+          </ram:ValiditySpecifiedPeriod>
+        </ram:SpecifiedGovernmentRegistration>
+      </ram:DeliveryTradeParty>
+      <ram:RelatedSupplyChainTradeTransaction>
+        <ram:ApplicableSupplyChainTradeAgreement>
+          <ram:ApplicableCrossBorderRegulatoryProcedure>
+            <ram:ImportCustomsOfficeSpecifiedLogisticsLocation>
+              <ram:ID schemeID="XXXXXXXXXX" schemeAgencyID="XXXXXXXXXX">XXXXXXXXXX</ram:ID>
+            </ram:ImportCustomsOfficeSpecifiedLogisticsLocation>
+          </ram:ApplicableCrossBorderRegulatoryProcedure>
+        </ram:ApplicableSupplyChainTradeAgreement>
+        <ram:ApplicableSupplyChainTradeSettlement>
+          <ram:SpecifiedTradeSettlementMonetarySummation>
+            <ram:ChargeTotalAmount currencyID="XXXXXXXXXX">23</ram:ChargeTotalAmount>
+          </ram:SpecifiedTradeSettlementMonetarySummation>
+          <ram:InvoiceReferencedDocument>
+            <ram:IssueDateTime>2015-08-01T21:14:42</ram:IssueDateTime>
+            <ram:ID>XXXXXXXXXX</ram:ID>
+          </ram:InvoiceReferencedDocument>
+        </ram:ApplicableSupplyChainTradeSettlement>
+      </ram:RelatedSupplyChainTradeTransaction>
+      <ram:WarehouseStorageTransportEvent>
+        <ram:TypeCode listID="XXXXXXXXXX" listAgencyID="XXXXXXXXXX">XXXXXXXXXX</ram:TypeCode>
+        <ram:OccurrenceLogisticsLocation>
+          <ram:ID schemeID="XXXXXXXXXX" schemeAgencyID="XXXXXXXXXX">XXXXXXXXXX</ram:ID>
+        </ram:OccurrenceLogisticsLocation>
+      </ram:WarehouseStorageTransportEvent>
+    </ram:IncludedReferencedSupplyChainConsignment>
+    <ram:UtilizedLogisticsTransportEquipment>
+      <ram:ID>XXXXXXXXXX</ram:ID>
+    </ram:UtilizedLogisticsTransportEquipment>
+  </rsm:SpecifiedSupplyChainConsignment>
+</rsm:COREOutput4>

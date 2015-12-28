@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rsm:COREOutput3 xmlns:rsm="urn:un:unece:uncefact:data:standard:COREOutput3:2"
+    xmlns:qdt="urn:un:unece:uncefact:data:standard:QualifiedDataType:17"
+    xmlns:ram="urn:un:unece:uncefact:data:standard:ReusableAggregateBusinessInformationEntity:16">
+  <rsm:HeaderExchangedDocument>
+    <ram:IssuerTradeParty>
+      <ram:ID>XXXXXXXXXX</ram:ID>
+      <ram:RoleCode>AA</ram:RoleCode>
+    </ram:IssuerTradeParty>
+  </rsm:HeaderExchangedDocument>
+  <rsm:ExchangedDeclaration>
+    <ram:TypeCode>1</ram:TypeCode>
+  </rsm:ExchangedDeclaration>
+  <rsm:SpecifiedLogisticsTransportMovement>
+    <ram:FirstArrivalTransportEvent>
+      <ram:ScheduledOccurrenceDateTime>
+        <qdt:DateTimeString format="XXXXXXXXXX">XXXXXXXXXX</qdt:DateTimeString>
+      </ram:ScheduledOccurrenceDateTime>
+      <ram:OccurrenceLogisticsLocation>
+        <ram:ID schemeID="XXXXXXXXXX" schemeAgencyID="XXXXXXXXXX">XXXXXXXXXX</ram:ID>
+        <ram:Name languageID="XXXXXXXXXX">XXXXXXXXXX</ram:Name>
+      </ram:OccurrenceLogisticsLocation>
+    </ram:FirstArrivalTransportEvent>
+    <ram:ItineraryTransportRoute>
+      <ram:ItineraryStopTransportEvent>
+        <ram:ActualOccurrenceDateTime>
+          <qdt:DateTimeString format="XXXXXXXXXX">XXXXXXXXXX</qdt:DateTimeString>
+        </ram:ActualOccurrenceDateTime>
+        <ram:OccurrenceLogisticsLocation>
+          <ram:CountryID schemeID="XXXXXXXXXX" schemeAgencyID="XXXXXXXXXX">XXXXXXXXXX</ram:CountryID>
+        </ram:OccurrenceLogisticsLocation>
+      </ram:ItineraryStopTransportEvent>
+    </ram:ItineraryTransportRoute>
+  </rsm:SpecifiedLogisticsTransportMovement>
+  <rsm:SpecifiedSupplyChainConsignment>
+    <ram:UtilizedLogisticsTransportEquipment>
+      <ram:ID>XXXXXXXXXX</ram:ID>
+      <ram:ReportedLogisticsStatus>
+        <ram:ConditionCode listID="Recommendation 24" listAgencyID="6">1</ram:ConditionCode>
+        <ram:ReferenceDateTime>
+          <qdt:DateTimeString format="XXXXXXXXXX">XXXXXXXXXX</qdt:DateTimeString>
+        </ram:ReferenceDateTime>
+        <ram:ReasonCode listID="Recommendation 24" listAgencyID="6">1</ram:ReasonCode>
+      </ram:ReportedLogisticsStatus>
+    </ram:UtilizedLogisticsTransportEquipment>
+  </rsm:SpecifiedSupplyChainConsignment>
+</rsm:COREOutput3>

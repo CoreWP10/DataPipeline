@@ -1,0 +1,723 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rsm:COREOutput1 xmlns:rsm="urn:un:unece:uncefact:data:standard:COREOutput1:2"
+    xmlns:qdt="urn:un:unece:uncefact:data:standard:QualifiedDataType:17"
+    xmlns:ram="urn:un:unece:uncefact:data:standard:ReusableAggregateBusinessInformationEntity:16">
+  <rsm:HeaderExchangedDocument>
+    <ram:IssuerTradeParty>
+      <ram:ID schemeID="XXXXXXXXXX" schemeAgencyID="XXXXXXXXXX">XXXXXXXXXX</ram:ID>
+      <ram:RoleCode>AA</ram:RoleCode>
+    </ram:IssuerTradeParty>
+  </rsm:HeaderExchangedDocument>
+  <rsm:ExchangedDeclaration>
+    <ram:TypeCode listID="1001" listAgencyID="6">1</ram:TypeCode>
+    <ram:DeclarantTradeParty>
+      <ram:ID schemeID="XXXXXXXXXX" schemeAgencyID="XXXXXXXXXX">XXXXXXXXXX</ram:ID>
+      <ram:Name languageID="XXXXXXXXXX">XXXXXXXXXX</ram:Name>
+      <ram:PostalTradeAddress>
+        <ram:PostcodeCode listID="XXXXXXXXXX" listAgencyID="XXXXXXXXXX">XXXXXXXXXX</ram:PostcodeCode>
+        <ram:StreetName>XXXXXXXXXX</ram:StreetName>
+        <ram:CityName>XXXXXXXXXX</ram:CityName>
+        <ram:CountryID schemeID="XXXXXXXXXX" schemeAgencyID="5">AD</ram:CountryID>
+        <ram:CountrySubDivisionName>XXXXXXXXXX</ram:CountrySubDivisionName>
+      </ram:PostalTradeAddress>
+      <ram:SpecifiedGovernmentRegistration>
+        <ram:CountryID>XXXXXXXXXX</ram:CountryID>
+      </ram:SpecifiedGovernmentRegistration>
+    </ram:DeclarantTradeParty>
+    <ram:DeclarantAgentTradeParty>
+      <ram:ID schemeID="XXXXXXXXXX" schemeAgencyID="XXXXXXXXXX">XXXXXXXXXX</ram:ID>
+      <ram:Name languageID="XXXXXXXXXX">XXXXXXXXXX</ram:Name>
+      <ram:PostalTradeAddress>
+        <ram:PostcodeCode listID="XXXXXXXXXX" listAgencyID="XXXXXXXXXX">XXXXXXXXXX</ram:PostcodeCode>
+        <ram:StreetName>XXXXXXXXXX</ram:StreetName>
+        <ram:CityName>XXXXXXXXXX</ram:CityName>
+        <ram:CountryID schemeID="XXXXXXXXXX" schemeAgencyID="5">AD</ram:CountryID>
+        <ram:CountrySubDivisionName>XXXXXXXXXX</ram:CountrySubDivisionName>
+      </ram:PostalTradeAddress>
+      <ram:SpecifiedGovernmentRegistration>
+        <ram:CountryID schemeID="XXXXXXXXXX" schemeAgencyID="XXXXXXXXXX">XXXXXXXXXX</ram:CountryID>
+      </ram:SpecifiedGovernmentRegistration>
+    </ram:DeclarantAgentTradeParty>
+    <ram:PrincipalAssociatedTradeParty>
+      <ram:ID schemeID="XXXXXXXXXX" schemeAgencyID="XXXXXXXXXX">XXXXXXXXXX</ram:ID>
+      <ram:Name languageID="XXXXXXXXXX">XXXXXXXXXX</ram:Name>
+      <ram:RoleCode listID="3035" listAgencyID="6">EX</ram:RoleCode>
+      <ram:PostalTradeAddress>
+        <ram:PostcodeCode listID="XXXXXXXXXX" listAgencyID="XXXXXXXXXX">XXXXXXXXXX</ram:PostcodeCode>
+        <ram:StreetName>XXXXXXXXXX</ram:StreetName>
+        <ram:CityName>XXXXXXXXXX</ram:CityName>
+        <ram:CountryID schemeID="XXXXXXXXXX" schemeAgencyID="5">AD</ram:CountryID>
+        <ram:CountrySubDivisionName>XXXXXXXXXX</ram:CountrySubDivisionName>
+      </ram:PostalTradeAddress>
+    </ram:PrincipalAssociatedTradeParty>
+  </rsm:ExchangedDeclaration>
+  <rsm:SpecifiedLogisticsTransportMovement>
+    <ram:ModeCode listID="Recommendation 19" listAgencyID="6">0</ram:ModeCode>
+    <ram:ID>XXXXXXXXXX</ram:ID>
+    <ram:LoadingTransportEvent>
+      <ram:OccurrenceLogisticsLocation>
+        <ram:ID schemeID="XXXXXXXXXX" schemeAgencyID="XXXXXXXXXX">XXXXXXXXXX</ram:ID>
+        <ram:Name languageID="XXXXXXXXXX">XXXXXXXXXX</ram:Name>
+      </ram:OccurrenceLogisticsLocation>
+    </ram:LoadingTransportEvent>
+    <ram:UnloadingTransportEvent>
+      <ram:OccurrenceLogisticsLocation>
+        <ram:ID schemeID="XXXXXXXXXX" schemeAgencyID="XXXXXXXXXX">XXXXXXXXXX</ram:ID>
+        <ram:Name languageID="XXXXXXXXXX">XXXXXXXXXX</ram:Name>
+      </ram:OccurrenceLogisticsLocation>
+    </ram:UnloadingTransportEvent>
+    <ram:ArrivalTransportEvent>
+      <ram:EstimatedOccurrenceDateTime>
+        <qdt:DateTimeString format="XXXXXXXXXX">XXXXXXXXXX</qdt:DateTimeString>
+      </ram:EstimatedOccurrenceDateTime>
+    </ram:ArrivalTransportEvent>
+    <ram:UsedLogisticsTransportMeans>
+      <ram:ID schemeID="XXXXXXXXXX" schemeAgencyID="XXXXXXXXXX">XXXXXXXXXX</ram:ID>
+      <ram:Name languageID="XXXXXXXXXX">XXXXXXXXXX</ram:Name>
+    </ram:UsedLogisticsTransportMeans>
+  </rsm:SpecifiedLogisticsTransportMovement>
+  <rsm:SpecifiedSupplyChainConsignment>
+    <ram:CarrierAcceptanceDateTime>
+      <qdt:DateTimeString format="XXXXXXXXXX">XXXXXXXXXX</qdt:DateTimeString>
+    </ram:CarrierAcceptanceDateTime>
+    <ram:FOBAmount currencyID="XXXXXXXXXX">23</ram:FOBAmount>
+    <ram:ConsignmentItemQuantity>23</ram:ConsignmentItemQuantity>
+    <ram:PaymentArrangementCode listID="XXXXXXXXXX" listAgencyID="XXXXXXXXXX">XXXXXXXXXX</ram:PaymentArrangementCode>
+    <ram:ConsignorTradeParty>
+      <ram:ID schemeID="XXXXXXXXXX" schemeAgencyID="XXXXXXXXXX">XXXXXXXXXX</ram:ID>
+      <ram:Name languageID="XXXXXXXXXX">XXXXXXXXXX</ram:Name>
+      <ram:DefinedTradeContact>
+        <ram:PersonName>XXXXXXXXXX</ram:PersonName>
+        <ram:DepartmentName>XXXXXXXXXX</ram:DepartmentName>
+        <ram:TelephoneUniversalCommunication>
+          <ram:CompleteNumber>XXXXXXXXXX</ram:CompleteNumber>
+        </ram:TelephoneUniversalCommunication>
+        <ram:EmailURIUniversalCommunication>
+          <ram:URIID>XXXXXXXXXX</ram:URIID>
+        </ram:EmailURIUniversalCommunication>
+      </ram:DefinedTradeContact>
+      <ram:PostalTradeAddress>
+        <ram:PostcodeCode listID="XXXXXXXXXX" listAgencyID="XXXXXXXXXX">XXXXXXXXXX</ram:PostcodeCode>
+        <ram:StreetName>XXXXXXXXXX</ram:StreetName>
+        <ram:CityName>XXXXXXXXXX</ram:CityName>
+        <ram:CountryID schemeID="XXXXXXXXXX" schemeAgencyID="5">AD</ram:CountryID>
+        <ram:CountrySubDivisionName>XXXXXXXXXX</ram:CountrySubDivisionName>
+      </ram:PostalTradeAddress>
+      <ram:TelephoneUniversalCommunication>
+        <ram:CompleteNumber>XXXXXXXXXX</ram:CompleteNumber>
+      </ram:TelephoneUniversalCommunication>
+      <ram:SpecifiedGovernmentRegistration>
+        <ram:TypeCode listID="XXXXXXXXXX" listAgencyID="XXXXXXXXXX">XXXXXXXXXX</ram:TypeCode>
+        <ram:CountryID>XXXXXXXXXX</ram:CountryID>
+        <ram:ValiditySpecifiedPeriod>
+          <ram:EndDateTime>
+            <qdt:DateTimeString format="XXXXXXXXXX">XXXXXXXXXX</qdt:DateTimeString>
+          </ram:EndDateTime>
+        </ram:ValiditySpecifiedPeriod>
+      </ram:SpecifiedGovernmentRegistration>
+    </ram:ConsignorTradeParty>
+    <ram:ConsigneeTradeParty>
+      <ram:ID schemeID="XXXXXXXXXX" schemeAgencyID="XXXXXXXXXX">XXXXXXXXXX</ram:ID>
+      <ram:Name languageID="XXXXXXXXXX">XXXXXXXXXX</ram:Name>
+      <ram:DefinedTradeContact>
+        <ram:PersonName>XXXXXXXXXX</ram:PersonName>
+        <ram:DepartmentName>XXXXXXXXXX</ram:DepartmentName>
+        <ram:TelephoneUniversalCommunication>
+          <ram:CompleteNumber>XXXXXXXXXX</ram:CompleteNumber>
+        </ram:TelephoneUniversalCommunication>
+        <ram:EmailURIUniversalCommunication>
+          <ram:URIID>XXXXXXXXXX</ram:URIID>
+        </ram:EmailURIUniversalCommunication>
+      </ram:DefinedTradeContact>
+      <ram:PostalTradeAddress>
+        <ram:PostcodeCode listID="XXXXXXXXXX" listAgencyID="XXXXXXXXXX">XXXXXXXXXX</ram:PostcodeCode>
+        <ram:StreetName>XXXXXXXXXX</ram:StreetName>
+        <ram:CityName>XXXXXXXXXX</ram:CityName>
+        <ram:CountryID schemeID="XXXXXXXXXX" schemeAgencyID="5">AD</ram:CountryID>
+        <ram:CountrySubDivisionName>XXXXXXXXXX</ram:CountrySubDivisionName>
+      </ram:PostalTradeAddress>
+      <ram:TelephoneUniversalCommunication>
+        <ram:CompleteNumber>XXXXXXXXXX</ram:CompleteNumber>
+      </ram:TelephoneUniversalCommunication>
+      <ram:SpecifiedGovernmentRegistration>
+        <ram:TypeCode listID="XXXXXXXXXX" listAgencyID="XXXXXXXXXX">XXXXXXXXXX</ram:TypeCode>
+        <ram:CountryID>XXXXXXXXXX</ram:CountryID>
+        <ram:ValiditySpecifiedPeriod>
+          <ram:EndDateTime>
+            <qdt:DateTimeString format="XXXXXXXXXX">XXXXXXXXXX</qdt:DateTimeString>
+          </ram:EndDateTime>
+        </ram:ValiditySpecifiedPeriod>
+      </ram:SpecifiedGovernmentRegistration>
+    </ram:ConsigneeTradeParty>
+    <ram:CarrierTradeParty>
+      <ram:ID schemeID="XXXXXXXXXX" schemeAgencyID="XXXXXXXXXX">AA</ram:ID>
+      <ram:Name languageID="XXXXXXXXXX">XXXXXXXXXX</ram:Name>
+    </ram:CarrierTradeParty>
+    <ram:DespatchTradeParty>
+      <ram:ID schemeID="XXXXXXXXXX" schemeAgencyID="XXXXXXXXXX">XXXXXXXXXX</ram:ID>
+      <ram:Name languageID="XXXXXXXXXX">XXXXXXXXXX</ram:Name>
+      <ram:DefinedTradeContact>
+        <ram:PersonName>XXXXXXXXXX</ram:PersonName>
+        <ram:DepartmentName>XXXXXXXXXX</ram:DepartmentName>
+        <ram:TelephoneUniversalCommunication>
+          <ram:CompleteNumber>XXXXXXXXXX</ram:CompleteNumber>
+        </ram:TelephoneUniversalCommunication>
+        <ram:EmailURIUniversalCommunication>
+          <ram:URIID>XXXXXXXXXX</ram:URIID>
+        </ram:EmailURIUniversalCommunication>
+      </ram:DefinedTradeContact>
+      <ram:PostalTradeAddress>
+        <ram:PostcodeCode listID="XXXXXXXXXX" listAgencyID="XXXXXXXXXX">XXXXXXXXXX</ram:PostcodeCode>
+        <ram:StreetName>XXXXXXXXXX</ram:StreetName>
+        <ram:CityName>XXXXXXXXXX</ram:CityName>
+        <ram:CountryID schemeID="XXXXXXXXXX" schemeAgencyID="5">AD</ram:CountryID>
+        <ram:CountrySubDivisionName>XXXXXXXXXX</ram:CountrySubDivisionName>
+      </ram:PostalTradeAddress>
+      <ram:TelephoneUniversalCommunication>
+        <ram:CompleteNumber>XXXXXXXXXX</ram:CompleteNumber>
+      </ram:TelephoneUniversalCommunication>
+      <ram:SpecifiedGovernmentRegistration>
+        <ram:TypeCode listID="XXXXXXXXXX" listAgencyID="XXXXXXXXXX">XXXXXXXXXX</ram:TypeCode>
+        <ram:CountryID>XXXXXXXXXX</ram:CountryID>
+        <ram:ValiditySpecifiedPeriod>
+          <ram:EndDateTime>
+            <qdt:DateTimeString format="XXXXXXXXXX">XXXXXXXXXX</qdt:DateTimeString>
+          </ram:EndDateTime>
+        </ram:ValiditySpecifiedPeriod>
+      </ram:SpecifiedGovernmentRegistration>
+    </ram:DespatchTradeParty>
+    <ram:NotifiedTradeParty>
+      <ram:ID schemeID="XXXXXXXXXX" schemeAgencyID="XXXXXXXXXX">XXXXXXXXXX</ram:ID>
+      <ram:Name languageID="XXXXXXXXXX">XXXXXXXXXX</ram:Name>
+      <ram:DefinedTradeContact>
+        <ram:PersonName>XXXXXXXXXX</ram:PersonName>
+        <ram:DepartmentName>XXXXXXXXXX</ram:DepartmentName>
+        <ram:TelephoneUniversalCommunication>
+          <ram:CompleteNumber>XXXXXXXXXX</ram:CompleteNumber>
+        </ram:TelephoneUniversalCommunication>
+        <ram:EmailURIUniversalCommunication>
+          <ram:URIID>XXXXXXXXXX</ram:URIID>
+        </ram:EmailURIUniversalCommunication>
+      </ram:DefinedTradeContact>
+      <ram:PostalTradeAddress>
+        <ram:PostcodeCode listID="XXXXXXXXXX" listAgencyID="XXXXXXXXXX">XXXXXXXXXX</ram:PostcodeCode>
+        <ram:StreetName>XXXXXXXXXX</ram:StreetName>
+        <ram:CityName>XXXXXXXXXX</ram:CityName>
+        <ram:CountryID schemeID="XXXXXXXXXX" schemeAgencyID="5">AD</ram:CountryID>
+        <ram:CountrySubDivisionName>XXXXXXXXXX</ram:CountrySubDivisionName>
+      </ram:PostalTradeAddress>
+      <ram:TelephoneUniversalCommunication>
+        <ram:CompleteNumber>XXXXXXXXXX</ram:CompleteNumber>
+      </ram:TelephoneUniversalCommunication>
+      <ram:SpecifiedGovernmentRegistration>
+        <ram:TypeCode listID="XXXXXXXXXX" listAgencyID="XXXXXXXXXX">XXXXXXXXXX</ram:TypeCode>
+        <ram:CountryID>XXXXXXXXXX</ram:CountryID>
+        <ram:ValiditySpecifiedPeriod>
+          <ram:EndDateTime>
+            <qdt:DateTimeString format="XXXXXXXXXX">XXXXXXXXXX</qdt:DateTimeString>
+          </ram:EndDateTime>
+        </ram:ValiditySpecifiedPeriod>
+      </ram:SpecifiedGovernmentRegistration>
+    </ram:NotifiedTradeParty>
+    <ram:CarrierAcceptanceLogisticsLocation>
+      <ram:ID schemeID="XXXXXXXXXX" schemeAgencyID="XXXXXXXXXX">XXXXXXXXXX</ram:ID>
+      <ram:Name languageID="XXXXXXXXXX">XXXXXXXXXX</ram:Name>
+    </ram:CarrierAcceptanceLogisticsLocation>
+    <ram:ConsigneeReceiptLogisticsLocation>
+      <ram:ID schemeID="XXXXXXXXXX" schemeAgencyID="XXXXXXXXXX">XXXXXXXXXX</ram:ID>
+      <ram:Name languageID="XXXXXXXXXX">XXXXXXXXXX</ram:Name>
+    </ram:ConsigneeReceiptLogisticsLocation>
+    <ram:IncludedSupplyChainConsignmentItem>
+      <ram:SequenceNumeric>23</ram:SequenceNumeric>
+      <ram:TypeCode listID="XXXXXXXXXX" listAgencyID="XXXXXXXXXX">XXXXXXXXXX</ram:TypeCode>
+      <ram:NatureIdentificationTransportCargo>
+        <ram:Identification languageID="XXXXXXXXXX">XXXXXXXXXX</ram:Identification>
+      </ram:NatureIdentificationTransportCargo>
+      <ram:PhysicalLogisticsShippingMarks>
+        <ram:Marking languageID="XXXXXXXXXX">XXXXXXXXXX</ram:Marking>
+      </ram:PhysicalLogisticsShippingMarks>
+      <ram:TransportLogisticsPackage>
+        <ram:ItemQuantity unitCode="XXXXXXXXXX" unitCodeListID="XXXXXXXXXX" unitCodeListAgencyID="XXXXXXXXXX" unitCodeListAgencyName="XXXXXXXXXX">23</ram:ItemQuantity>
+        <ram:LevelCode listID="7075" listAgencyID="6">1</ram:LevelCode>
+        <ram:TypeCode listID="7065" listAgencyID="6">43</ram:TypeCode>
+        <ram:Type languageID="XXXXXXXXXX">XXXXXXXXXX</ram:Type>
+      </ram:TransportLogisticsPackage>
+    </ram:IncludedSupplyChainConsignmentItem>
+    <ram:IncludedReferencedSupplyChainConsignment>
+      <ram:ID>XXXXXXXXXX</ram:ID>
+      <ram:GrossWeightMeasure unitCode="KGM">23</ram:GrossWeightMeasure>
+      <ram:NetWeightMeasure unitCode="KGM">23</ram:NetWeightMeasure>
+      <ram:GrossVolumeMeasure unitCode="CMQ">23</ram:GrossVolumeMeasure>
+      <ram:ConsignmentItemQuantity>23</ram:ConsignmentItemQuantity>
+      <ram:CarrierAcceptanceDateTime>
+        <qdt:DateTimeString format="XXXXXXXXXX">XXXXXXXXXX</qdt:DateTimeString>
+      </ram:CarrierAcceptanceDateTime>
+      <ram:IncludedReferencedSupplyChainConsignmentItem>
+        <ram:TradeLineItemQuantity>23</ram:TradeLineItemQuantity>
+        <ram:TransportLogisticsPackage>
+          <ram:ItemQuantity unitCode="XXXXXXXXXX" unitCodeListID="XXXXXXXXXX" unitCodeListAgencyID="XXXXXXXXXX" unitCodeListAgencyName="XXXXXXXXXX">23</ram:ItemQuantity>
+          <ram:LevelCode listID="7075" listAgencyID="6">1</ram:LevelCode>
+          <ram:TypeCode listID="7065" listAgencyID="6">43</ram:TypeCode>
+          <ram:Type languageID="XXXXXXXXXX">XXXXXXXXXX</ram:Type>
+        </ram:TransportLogisticsPackage>
+        <ram:IncludedSupplyChainTradeLineItem>
+          <ram:SequenceNumeric>23</ram:SequenceNumeric>
+          <ram:SpecifiedSupplyChainTradeAgreement>
+            <ram:AgreedPriceProductTradePrice>
+              <ram:ChargeAmount currencyID="XXXXXXXXXX">23</ram:ChargeAmount>
+            </ram:AgreedPriceProductTradePrice>
+          </ram:SpecifiedSupplyChainTradeAgreement>
+          <ram:SpecifiedSupplyChainTradeDelivery>
+            <ram:NetWeightMeasure unitCode="KGM">23</ram:NetWeightMeasure>
+            <ram:GrossWeightMeasure unitCode="KGM">23</ram:GrossWeightMeasure>
+            <ram:GrossVolumeMeasure>23</ram:GrossVolumeMeasure>
+            <ram:UtilizedLogisticsTransportEquipment>
+              <ram:ID>XXXXXXXXXX</ram:ID>
+            </ram:UtilizedLogisticsTransportEquipment>
+            <ram:LogisticsPackage>
+              <ram:ItemQuantity unitCode="XXXXXXXXXX">23</ram:ItemQuantity>
+              <ram:TypeCode listID="7065" listAgencyID="6">43</ram:TypeCode>
+              <ram:Type languageID="XXXXXXXXXX">XXXXXXXXXX</ram:Type>
+              <ram:PhysicalLogisticsShippingMarks>
+                <ram:Marking languageID="XXXXXXXXXX">XXXXXXXXXX</ram:Marking>
+              </ram:PhysicalLogisticsShippingMarks>
+            </ram:LogisticsPackage>
+          </ram:SpecifiedSupplyChainTradeDelivery>
+          <ram:SpecifiedTradeProduct>
+            <ram:ID schemeID="XXXXXXXXXX" schemeAgencyID="XXXXXXXXXX">XXXXXXXXXX</ram:ID>
+            <ram:Description languageID="XXXXXXXXXX">XXXXXXXXXX</ram:Description>
+            <ram:UnitTypeCode listID="XXXXXXXXXX" listAgencyID="XXXXXXXXXX">XXXXXXXXXX</ram:UnitTypeCode>
+            <ram:DesignatedProductClassification>
+              <ram:SystemID schemeID="XXXXXXXXXX" schemeAgencyID="XXXXXXXXXX">XXXXXXXXXX</ram:SystemID>
+              <ram:ClassCode listID="XXXXXXXXXX" listAgencyID="XXXXXXXXXX">XXXXXXXXXX</ram:ClassCode>
+              <ram:Description languageID="XXXXXXXXXX">XXXXXXXXXX</ram:Description>
+            </ram:DesignatedProductClassification>
+            <ram:OriginTradeCountry>
+              <ram:ID schemeID="XXXXXXXXXX" schemeAgencyID="5">AD</ram:ID>
+              <ram:Name languageID="XXXXXXXXXX">XXXXXXXXXX</ram:Name>
+            </ram:OriginTradeCountry>
+            <ram:ManufacturerTradeParty>
+              <ram:ID schemeID="XXXXXXXXXX" schemeAgencyID="XXXXXXXXXX">XXXXXXXXXX</ram:ID>
+              <ram:Name languageID="XXXXXXXXXX">XXXXXXXXXX</ram:Name>
+              <ram:DefinedTradeContact>
+                <ram:PersonName>XXXXXXXXXX</ram:PersonName>
+                <ram:DepartmentName>XXXXXXXXXX</ram:DepartmentName>
+                <ram:TelephoneUniversalCommunication>
+                  <ram:CompleteNumber>XXXXXXXXXX</ram:CompleteNumber>
+                </ram:TelephoneUniversalCommunication>
+                <ram:EmailURIUniversalCommunication>
+                  <ram:URIID>XXXXXXXXXX</ram:URIID>
+                </ram:EmailURIUniversalCommunication>
+              </ram:DefinedTradeContact>
+              <ram:PostalTradeAddress>
+                <ram:PostcodeCode listID="XXXXXXXXXX" listAgencyID="XXXXXXXXXX">XXXXXXXXXX</ram:PostcodeCode>
+                <ram:StreetName>XXXXXXXXXX</ram:StreetName>
+                <ram:CityName>XXXXXXXXXX</ram:CityName>
+                <ram:CountryID schemeID="XXXXXXXXXX" schemeAgencyID="5">AD</ram:CountryID>
+                <ram:CountrySubDivisionName>XXXXXXXXXX</ram:CountrySubDivisionName>
+              </ram:PostalTradeAddress>
+              <ram:TelephoneUniversalCommunication>
+                <ram:CompleteNumber>XXXXXXXXXX</ram:CompleteNumber>
+              </ram:TelephoneUniversalCommunication>
+              <ram:SpecifiedGovernmentRegistration>
+                <ram:TypeCode listID="XXXXXXXXXX" listAgencyID="XXXXXXXXXX">XXXXXXXXXX</ram:TypeCode>
+                <ram:CountryID>XXXXXXXXXX</ram:CountryID>
+                <ram:ValiditySpecifiedPeriod>
+                  <ram:EndDateTime>
+                    <qdt:DateTimeString format="XXXXXXXXXX">XXXXXXXXXX</qdt:DateTimeString>
+                  </ram:EndDateTime>
+                </ram:ValiditySpecifiedPeriod>
+              </ram:SpecifiedGovernmentRegistration>
+            </ram:ManufacturerTradeParty>
+            <ram:ApplicableTransportDangerousGoods>
+              <ram:UNDGIdentificationCode>XXXXXXXXXX</ram:UNDGIdentificationCode>
+              <ram:HazardTypeCode listID="XXXXXXXXXX" listAgencyID="XXXXXXXXXX">XXXXXXXXXX</ram:HazardTypeCode>
+              <ram:HazardClassificationID schemeID="XXXXXXXXXX" schemeAgencyID="XXXXXXXXXX">XXXXXXXXXX</ram:HazardClassificationID>
+              <ram:FlashpointTemperatureMeasurement>
+                <ram:ActualMeasure unitCode="XXXXXXXXXX">23</ram:ActualMeasure>
+              </ram:FlashpointTemperatureMeasurement>
+            </ram:ApplicableTransportDangerousGoods>
+          </ram:SpecifiedTradeProduct>
+        </ram:IncludedSupplyChainTradeLineItem>
+        <ram:NatureIdentificationTransportCargo>
+          <ram:Identification languageID="XXXXXXXXXX">XXXXXXXXXX</ram:Identification>
+        </ram:NatureIdentificationTransportCargo>
+        <ram:PhysicalLogisticsShippingMarks>
+          <ram:Marking languageID="XXXXXXXXXX">XXXXXXXXXX</ram:Marking>
+        </ram:PhysicalLogisticsShippingMarks>
+        <ram:AssociatedReferencedLogisticsTransportEquipment>
+          <ram:ID>XXXXXXXXXX</ram:ID>
+        </ram:AssociatedReferencedLogisticsTransportEquipment>
+      </ram:IncludedReferencedSupplyChainConsignmentItem>
+      <ram:ConsignorTradeParty>
+        <ram:ID schemeID="XXXXXXXXXX" schemeAgencyID="XXXXXXXXXX">XXXXXXXXXX</ram:ID>
+        <ram:Name languageID="XXXXXXXXXX">XXXXXXXXXX</ram:Name>
+        <ram:DefinedTradeContact>
+          <ram:PersonName>XXXXXXXXXX</ram:PersonName>
+          <ram:DepartmentName>XXXXXXXXXX</ram:DepartmentName>
+          <ram:TelephoneUniversalCommunication>
+            <ram:CompleteNumber>XXXXXXXXXX</ram:CompleteNumber>
+          </ram:TelephoneUniversalCommunication>
+          <ram:EmailURIUniversalCommunication>
+            <ram:URIID>XXXXXXXXXX</ram:URIID>
+          </ram:EmailURIUniversalCommunication>
+        </ram:DefinedTradeContact>
+        <ram:PostalTradeAddress>
+          <ram:PostcodeCode listID="XXXXXXXXXX" listAgencyID="XXXXXXXXXX">XXXXXXXXXX</ram:PostcodeCode>
+          <ram:StreetName>XXXXXXXXXX</ram:StreetName>
+          <ram:CityName>XXXXXXXXXX</ram:CityName>
+          <ram:CountryID schemeID="XXXXXXXXXX" schemeAgencyID="5">AD</ram:CountryID>
+          <ram:CountrySubDivisionName>XXXXXXXXXX</ram:CountrySubDivisionName>
+        </ram:PostalTradeAddress>
+        <ram:TelephoneUniversalCommunication>
+          <ram:CompleteNumber>XXXXXXXXXX</ram:CompleteNumber>
+        </ram:TelephoneUniversalCommunication>
+        <ram:SpecifiedGovernmentRegistration>
+          <ram:TypeCode listID="XXXXXXXXXX" listAgencyID="XXXXXXXXXX">XXXXXXXXXX</ram:TypeCode>
+          <ram:CountryID>XXXXXXXXXX</ram:CountryID>
+          <ram:ValiditySpecifiedPeriod>
+            <ram:EndDateTime>
+              <qdt:DateTimeString format="XXXXXXXXXX">XXXXXXXXXX</qdt:DateTimeString>
+            </ram:EndDateTime>
+          </ram:ValiditySpecifiedPeriod>
+        </ram:SpecifiedGovernmentRegistration>
+      </ram:ConsignorTradeParty>
+      <ram:ConsigneeTradeParty>
+        <ram:ID schemeID="XXXXXXXXXX" schemeAgencyID="XXXXXXXXXX">XXXXXXXXXX</ram:ID>
+        <ram:Name languageID="XXXXXXXXXX">XXXXXXXXXX</ram:Name>
+        <ram:DefinedTradeContact>
+          <ram:PersonName>XXXXXXXXXX</ram:PersonName>
+          <ram:DepartmentName>XXXXXXXXXX</ram:DepartmentName>
+          <ram:TelephoneUniversalCommunication>
+            <ram:CompleteNumber>XXXXXXXXXX</ram:CompleteNumber>
+          </ram:TelephoneUniversalCommunication>
+          <ram:EmailURIUniversalCommunication>
+            <ram:URIID>XXXXXXXXXX</ram:URIID>
+          </ram:EmailURIUniversalCommunication>
+        </ram:DefinedTradeContact>
+        <ram:PostalTradeAddress>
+          <ram:PostcodeCode listID="XXXXXXXXXX" listAgencyID="XXXXXXXXXX">XXXXXXXXXX</ram:PostcodeCode>
+          <ram:StreetName>XXXXXXXXXX</ram:StreetName>
+          <ram:CityName>XXXXXXXXXX</ram:CityName>
+          <ram:CountryID schemeID="XXXXXXXXXX" schemeAgencyID="5">AD</ram:CountryID>
+          <ram:CountrySubDivisionName>XXXXXXXXXX</ram:CountrySubDivisionName>
+        </ram:PostalTradeAddress>
+        <ram:TelephoneUniversalCommunication>
+          <ram:CompleteNumber>XXXXXXXXXX</ram:CompleteNumber>
+        </ram:TelephoneUniversalCommunication>
+        <ram:SpecifiedGovernmentRegistration>
+          <ram:TypeCode listID="XXXXXXXXXX" listAgencyID="XXXXXXXXXX">XXXXXXXXXX</ram:TypeCode>
+          <ram:CountryID>XXXXXXXXXX</ram:CountryID>
+          <ram:ValiditySpecifiedPeriod>
+            <ram:EndDateTime>
+              <qdt:DateTimeString format="XXXXXXXXXX">XXXXXXXXXX</qdt:DateTimeString>
+            </ram:EndDateTime>
+          </ram:ValiditySpecifiedPeriod>
+        </ram:SpecifiedGovernmentRegistration>
+      </ram:ConsigneeTradeParty>
+      <ram:DespatchTradeParty>
+        <ram:ID schemeID="XXXXXXXXXX" schemeAgencyID="XXXXXXXXXX">XXXXXXXXXX</ram:ID>
+        <ram:Name languageID="XXXXXXXXXX">XXXXXXXXXX</ram:Name>
+        <ram:DefinedTradeContact>
+          <ram:PersonName>XXXXXXXXXX</ram:PersonName>
+          <ram:DepartmentName>XXXXXXXXXX</ram:DepartmentName>
+          <ram:TelephoneUniversalCommunication>
+            <ram:CompleteNumber>XXXXXXXXXX</ram:CompleteNumber>
+          </ram:TelephoneUniversalCommunication>
+          <ram:EmailURIUniversalCommunication>
+            <ram:URIID>XXXXXXXXXX</ram:URIID>
+          </ram:EmailURIUniversalCommunication>
+        </ram:DefinedTradeContact>
+        <ram:PostalTradeAddress>
+          <ram:PostcodeCode listID="XXXXXXXXXX" listAgencyID="XXXXXXXXXX">XXXXXXXXXX</ram:PostcodeCode>
+          <ram:StreetName>XXXXXXXXXX</ram:StreetName>
+          <ram:CityName>XXXXXXXXXX</ram:CityName>
+          <ram:CountryID schemeID="XXXXXXXXXX" schemeAgencyID="5">AD</ram:CountryID>
+          <ram:CountrySubDivisionName>XXXXXXXXXX</ram:CountrySubDivisionName>
+        </ram:PostalTradeAddress>
+        <ram:TelephoneUniversalCommunication>
+          <ram:CompleteNumber>XXXXXXXXXX</ram:CompleteNumber>
+        </ram:TelephoneUniversalCommunication>
+        <ram:SpecifiedGovernmentRegistration>
+          <ram:TypeCode listID="XXXXXXXXXX" listAgencyID="XXXXXXXXXX">XXXXXXXXXX</ram:TypeCode>
+          <ram:CountryID>XXXXXXXXXX</ram:CountryID>
+          <ram:ValiditySpecifiedPeriod>
+            <ram:EndDateTime>
+              <qdt:DateTimeString format="XXXXXXXXXX">XXXXXXXXXX</qdt:DateTimeString>
+            </ram:EndDateTime>
+          </ram:ValiditySpecifiedPeriod>
+        </ram:SpecifiedGovernmentRegistration>
+      </ram:DespatchTradeParty>
+      <ram:NotifiedTradeParty>
+        <ram:ID schemeID="XXXXXXXXXX" schemeAgencyID="XXXXXXXXXX">XXXXXXXXXX</ram:ID>
+        <ram:Name languageID="XXXXXXXXXX">XXXXXXXXXX</ram:Name>
+        <ram:DefinedTradeContact>
+          <ram:PersonName>XXXXXXXXXX</ram:PersonName>
+          <ram:DepartmentName>XXXXXXXXXX</ram:DepartmentName>
+          <ram:TelephoneUniversalCommunication>
+            <ram:CompleteNumber>XXXXXXXXXX</ram:CompleteNumber>
+          </ram:TelephoneUniversalCommunication>
+          <ram:EmailURIUniversalCommunication>
+            <ram:URIID>XXXXXXXXXX</ram:URIID>
+          </ram:EmailURIUniversalCommunication>
+        </ram:DefinedTradeContact>
+        <ram:PostalTradeAddress>
+          <ram:PostcodeCode listID="XXXXXXXXXX" listAgencyID="XXXXXXXXXX">XXXXXXXXXX</ram:PostcodeCode>
+          <ram:StreetName>XXXXXXXXXX</ram:StreetName>
+          <ram:CityName>XXXXXXXXXX</ram:CityName>
+          <ram:CountryID schemeID="XXXXXXXXXX" schemeAgencyID="5">AD</ram:CountryID>
+          <ram:CountrySubDivisionName>XXXXXXXXXX</ram:CountrySubDivisionName>
+        </ram:PostalTradeAddress>
+        <ram:TelephoneUniversalCommunication>
+          <ram:CompleteNumber>XXXXXXXXXX</ram:CompleteNumber>
+        </ram:TelephoneUniversalCommunication>
+        <ram:SpecifiedGovernmentRegistration>
+          <ram:TypeCode listID="XXXXXXXXXX" listAgencyID="XXXXXXXXXX">XXXXXXXXXX</ram:TypeCode>
+          <ram:CountryID>XXXXXXXXXX</ram:CountryID>
+          <ram:ValiditySpecifiedPeriod>
+            <ram:EndDateTime>
+              <qdt:DateTimeString format="XXXXXXXXXX">XXXXXXXXXX</qdt:DateTimeString>
+            </ram:EndDateTime>
+          </ram:ValiditySpecifiedPeriod>
+        </ram:SpecifiedGovernmentRegistration>
+      </ram:NotifiedTradeParty>
+      <ram:CarrierTradeParty>
+        <ram:ID schemeID="XXXXXXXXXX" schemeAgencyID="XXXXXXXXXX">XXXXXXXXXX</ram:ID>
+        <ram:Name languageID="XXXXXXXXXX">XXXXXXXXXX</ram:Name>
+        <ram:DefinedTradeContact>
+          <ram:PersonName>XXXXXXXXXX</ram:PersonName>
+          <ram:DepartmentName>XXXXXXXXXX</ram:DepartmentName>
+          <ram:TelephoneUniversalCommunication>
+            <ram:CompleteNumber>XXXXXXXXXX</ram:CompleteNumber>
+          </ram:TelephoneUniversalCommunication>
+          <ram:EmailURIUniversalCommunication>
+            <ram:URIID>XXXXXXXXXX</ram:URIID>
+          </ram:EmailURIUniversalCommunication>
+        </ram:DefinedTradeContact>
+        <ram:PostalTradeAddress>
+          <ram:PostcodeCode listID="XXXXXXXXXX" listAgencyID="XXXXXXXXXX">XXXXXXXXXX</ram:PostcodeCode>
+          <ram:StreetName>XXXXXXXXXX</ram:StreetName>
+          <ram:CityName>XXXXXXXXXX</ram:CityName>
+          <ram:CountryID schemeID="XXXXXXXXXX" schemeAgencyID="5">AD</ram:CountryID>
+          <ram:CountrySubDivisionName>XXXXXXXXXX</ram:CountrySubDivisionName>
+        </ram:PostalTradeAddress>
+        <ram:TelephoneUniversalCommunication>
+          <ram:CompleteNumber>XXXXXXXXXX</ram:CompleteNumber>
+        </ram:TelephoneUniversalCommunication>
+        <ram:SpecifiedGovernmentRegistration>
+          <ram:TypeCode listID="XXXXXXXXXX" listAgencyID="XXXXXXXXXX">XXXXXXXXXX</ram:TypeCode>
+          <ram:CountryID>XXXXXXXXXX</ram:CountryID>
+          <ram:ValiditySpecifiedPeriod>
+            <ram:EndDateTime>
+              <qdt:DateTimeString format="XXXXXXXXXX">XXXXXXXXXX</qdt:DateTimeString>
+            </ram:EndDateTime>
+          </ram:ValiditySpecifiedPeriod>
+        </ram:SpecifiedGovernmentRegistration>
+      </ram:CarrierTradeParty>
+      <ram:RelatedSupplyChainTradeTransaction>
+        <ram:ID>XXXXXXXXXX</ram:ID>
+        <ram:LineItemQuantity>23</ram:LineItemQuantity>
+        <ram:ApplicableSupplyChainTradeAgreement>
+          <ram:SellerTradeParty>
+            <ram:ID schemeID="XXXXXXXXXX" schemeAgencyID="XXXXXXXXXX">XXXXXXXXXX</ram:ID>
+            <ram:Name languageID="XXXXXXXXXX">XXXXXXXXXX</ram:Name>
+            <ram:DefinedTradeContact>
+              <ram:PersonName>XXXXXXXXXX</ram:PersonName>
+              <ram:DepartmentName>XXXXXXXXXX</ram:DepartmentName>
+              <ram:TelephoneUniversalCommunication>
+                <ram:CompleteNumber>XXXXXXXXXX</ram:CompleteNumber>
+              </ram:TelephoneUniversalCommunication>
+              <ram:EmailURIUniversalCommunication>
+                <ram:URIID>XXXXXXXXXX</ram:URIID>
+              </ram:EmailURIUniversalCommunication>
+            </ram:DefinedTradeContact>
+            <ram:PostalTradeAddress>
+              <ram:PostcodeCode listID="XXXXXXXXXX" listAgencyID="XXXXXXXXXX">XXXXXXXXXX</ram:PostcodeCode>
+              <ram:StreetName>XXXXXXXXXX</ram:StreetName>
+              <ram:CityName>XXXXXXXXXX</ram:CityName>
+              <ram:CountryID schemeID="XXXXXXXXXX" schemeAgencyID="5">AD</ram:CountryID>
+              <ram:CountrySubDivisionName>XXXXXXXXXX</ram:CountrySubDivisionName>
+            </ram:PostalTradeAddress>
+            <ram:TelephoneUniversalCommunication>
+              <ram:CompleteNumber>XXXXXXXXXX</ram:CompleteNumber>
+            </ram:TelephoneUniversalCommunication>
+            <ram:SpecifiedGovernmentRegistration>
+              <ram:CountryID schemeID="XXXXXXXXXX" schemeAgencyID="XXXXXXXXXX">XXXXXXXXXX</ram:CountryID>
+            </ram:SpecifiedGovernmentRegistration>
+          </ram:SellerTradeParty>
+          <ram:BuyerTradeParty>
+            <ram:ID schemeID="XXXXXXXXXX" schemeAgencyID="XXXXXXXXXX">XXXXXXXXXX</ram:ID>
+            <ram:Name languageID="XXXXXXXXXX">XXXXXXXXXX</ram:Name>
+            <ram:DefinedTradeContact>
+              <ram:PersonName>XXXXXXXXXX</ram:PersonName>
+              <ram:TelephoneUniversalCommunication>
+                <ram:CompleteNumber>XXXXXXXXXX</ram:CompleteNumber>
+              </ram:TelephoneUniversalCommunication>
+              <ram:EmailURIUniversalCommunication>
+                <ram:URIID>XXXXXXXXXX</ram:URIID>
+              </ram:EmailURIUniversalCommunication>
+            </ram:DefinedTradeContact>
+            <ram:PostalTradeAddress>
+              <ram:PostcodeCode listID="XXXXXXXXXX" listAgencyID="XXXXXXXXXX">XXXXXXXXXX</ram:PostcodeCode>
+              <ram:StreetName>XXXXXXXXXX</ram:StreetName>
+              <ram:CityName>XXXXXXXXXX</ram:CityName>
+              <ram:CountryID schemeID="XXXXXXXXXX" schemeAgencyID="5">AD</ram:CountryID>
+              <ram:CountrySubDivisionName>XXXXXXXXXX</ram:CountrySubDivisionName>
+            </ram:PostalTradeAddress>
+            <ram:TelephoneUniversalCommunication>
+              <ram:CompleteNumber>XXXXXXXXXX</ram:CompleteNumber>
+            </ram:TelephoneUniversalCommunication>
+            <ram:SpecifiedGovernmentRegistration>
+              <ram:CountryID schemeID="XXXXXXXXXX" schemeAgencyID="XXXXXXXXXX">XXXXXXXXXX</ram:CountryID>
+            </ram:SpecifiedGovernmentRegistration>
+          </ram:BuyerTradeParty>
+          <ram:SellerOrderReferencedDocument>
+            <ram:IssueDateTime>2015-08-01T21:12:24</ram:IssueDateTime>
+            <ram:ID>XXXXXXXXXX</ram:ID>
+          </ram:SellerOrderReferencedDocument>
+          <ram:ApplicableCrossBorderRegulatoryProcedure>
+            <ram:ExportCustomsOfficeSpecifiedLogisticsLocation>
+              <ram:ID schemeID="XXXXXXXXXX" schemeAgencyID="XXXXXXXXXX">XXXXXXXXXX</ram:ID>
+            </ram:ExportCustomsOfficeSpecifiedLogisticsLocation>
+          </ram:ApplicableCrossBorderRegulatoryProcedure>
+        </ram:ApplicableSupplyChainTradeAgreement>
+        <ram:ApplicableSupplyChainTradeDelivery>
+          <ram:PickUpAvailabilityDateTime>2015-08-01T21:12:24</ram:PickUpAvailabilityDateTime>
+          <ram:ShipToTradeParty>
+            <ram:ID schemeID="XXXXXXXXXX" schemeAgencyID="XXXXXXXXXX">XXXXXXXXXX</ram:ID>
+            <ram:Name languageID="XXXXXXXXXX">XXXXXXXXXX</ram:Name>
+            <ram:DefinedTradeContact>
+              <ram:PersonName>XXXXXXXXXX</ram:PersonName>
+              <ram:DepartmentName>XXXXXXXXXX</ram:DepartmentName>
+              <ram:TelephoneUniversalCommunication>
+                <ram:CompleteNumber>XXXXXXXXXX</ram:CompleteNumber>
+              </ram:TelephoneUniversalCommunication>
+              <ram:EmailURIUniversalCommunication>
+                <ram:URIID>XXXXXXXXXX</ram:URIID>
+              </ram:EmailURIUniversalCommunication>
+            </ram:DefinedTradeContact>
+            <ram:PostalTradeAddress>
+              <ram:PostcodeCode listID="XXXXXXXXXX" listAgencyID="XXXXXXXXXX">XXXXXXXXXX</ram:PostcodeCode>
+              <ram:StreetName>XXXXXXXXXX</ram:StreetName>
+              <ram:CityName>XXXXXXXXXX</ram:CityName>
+              <ram:CountryID schemeID="XXXXXXXXXX" schemeAgencyID="5">AD</ram:CountryID>
+              <ram:CountrySubDivisionName>XXXXXXXXXX</ram:CountrySubDivisionName>
+            </ram:PostalTradeAddress>
+            <ram:TelephoneUniversalCommunication>
+              <ram:CompleteNumber>XXXXXXXXXX</ram:CompleteNumber>
+            </ram:TelephoneUniversalCommunication>
+            <ram:SpecifiedGovernmentRegistration>
+              <ram:CountryID schemeID="XXXXXXXXXX" schemeAgencyID="XXXXXXXXXX">XXXXXXXXXX</ram:CountryID>
+            </ram:SpecifiedGovernmentRegistration>
+          </ram:ShipToTradeParty>
+          <ram:ShipFromTradeParty>
+            <ram:ID schemeID="XXXXXXXXXX" schemeAgencyID="XXXXXXXXXX">XXXXXXXXXX</ram:ID>
+            <ram:Name languageID="XXXXXXXXXX">XXXXXXXXXX</ram:Name>
+            <ram:DefinedTradeContact>
+              <ram:PersonName>XXXXXXXXXX</ram:PersonName>
+              <ram:DepartmentName>XXXXXXXXXX</ram:DepartmentName>
+              <ram:TelephoneUniversalCommunication>
+                <ram:CompleteNumber>XXXXXXXXXX</ram:CompleteNumber>
+              </ram:TelephoneUniversalCommunication>
+              <ram:EmailURIUniversalCommunication>
+                <ram:URIID>XXXXXXXXXX</ram:URIID>
+              </ram:EmailURIUniversalCommunication>
+            </ram:DefinedTradeContact>
+            <ram:PostalTradeAddress>
+              <ram:PostcodeCode listID="XXXXXXXXXX" listAgencyID="XXXXXXXXXX">XXXXXXXXXX</ram:PostcodeCode>
+              <ram:StreetName>XXXXXXXXXX</ram:StreetName>
+              <ram:CityName>XXXXXXXXXX</ram:CityName>
+              <ram:CountryID schemeID="XXXXXXXXXX" schemeAgencyID="5">AD</ram:CountryID>
+              <ram:CountrySubDivisionName>XXXXXXXXXX</ram:CountrySubDivisionName>
+            </ram:PostalTradeAddress>
+            <ram:TelephoneUniversalCommunication>
+              <ram:CompleteNumber>XXXXXXXXXX</ram:CompleteNumber>
+            </ram:TelephoneUniversalCommunication>
+            <ram:SpecifiedGovernmentRegistration>
+              <ram:TypeCode listID="XXXXXXXXXX" listAgencyID="XXXXXXXXXX">XXXXXXXXXX</ram:TypeCode>
+              <ram:CountryID>XXXXXXXXXX</ram:CountryID>
+              <ram:ValiditySpecifiedPeriod>
+                <ram:EndDateTime>
+                  <qdt:DateTimeString format="XXXXXXXXXX">XXXXXXXXXX</qdt:DateTimeString>
+                </ram:EndDateTime>
+              </ram:ValiditySpecifiedPeriod>
+            </ram:SpecifiedGovernmentRegistration>
+          </ram:ShipFromTradeParty>
+          <ram:FinalDestinationTradeCountry>
+            <ram:ID schemeID="XXXXXXXXXX" schemeAgencyID="5">AD</ram:ID>
+            <ram:Name languageID="XXXXXXXXXX">XXXXXXXXXX</ram:Name>
+          </ram:FinalDestinationTradeCountry>
+          <ram:ActualDespatchSupplyChainEvent>
+            <ram:OccurrenceLogisticsLocation>
+              <ram:CountryID schemeID="XXXXXXXXXX" schemeAgencyID="XXXXXXXXXX">XXXXXXXXXX</ram:CountryID>
+            </ram:OccurrenceLogisticsLocation>
+          </ram:ActualDespatchSupplyChainEvent>
+          <ram:PlannedDeliverySupplyChainEvent>
+            <ram:OccurrenceLogisticsLocation>
+              <ram:CountryID schemeID="XXXXXXXXXX" schemeAgencyID="XXXXXXXXXX">XXXXXXXXXX</ram:CountryID>
+            </ram:OccurrenceLogisticsLocation>
+          </ram:PlannedDeliverySupplyChainEvent>
+          <ram:ActualDeliverySupplyChainEvent/>
+        </ram:ApplicableSupplyChainTradeDelivery>
+      </ram:RelatedSupplyChainTradeTransaction>
+      <ram:TransportLogisticsPackage>
+        <ram:ItemQuantity unitCode="XXXXXXXXXX">23</ram:ItemQuantity>
+        <ram:LevelCode listID="7075" listAgencyID="6">1</ram:LevelCode>
+        <ram:TypeCode listID="7065" listAgencyID="6">43</ram:TypeCode>
+        <ram:Type languageID="XXXXXXXXXX">XXXXXXXXXX</ram:Type>
+      </ram:TransportLogisticsPackage>
+      <ram:VanningTransportEvent>
+        <ram:ActualOccurrenceDateTime>
+          <qdt:DateTimeString format="205">XXXXXXXXXX</qdt:DateTimeString>
+        </ram:ActualOccurrenceDateTime>
+        <ram:OccurrenceLogisticsLocation>
+          <ram:ID schemeID="XXXXXXXXXX" schemeAgencyID="XXXXXXXXXX">XXXXXXXXXX</ram:ID>
+          <ram:Name languageID="XXXXXXXXXX">XXXXXXXXXX</ram:Name>
+        </ram:OccurrenceLogisticsLocation>
+      </ram:VanningTransportEvent>
+      <ram:CarrierAcceptanceLogisticsLocation>
+        <ram:ID schemeID="XXXXXXXXXX" schemeAgencyID="XXXXXXXXXX">XXXXXXXXXX</ram:ID>
+        <ram:Name languageID="XXXXXXXXXX">XXXXXXXXXX</ram:Name>
+      </ram:CarrierAcceptanceLogisticsLocation>
+      <ram:TransportContractReferencedDocument>
+        <ram:ID>XXXXXXXXXX</ram:ID>
+      </ram:TransportContractReferencedDocument>
+      <ram:PreCarriageLogisticsTransportMovement>
+        <ram:ModeCode listID="Recommendation 19" listAgencyID="6">0</ram:ModeCode>
+      </ram:PreCarriageLogisticsTransportMovement>
+      <ram:UtilizedLogisticsTransportEquipment>
+        <ram:ID>XXXXXXXXXX</ram:ID>
+        <ram:GrossWeightMeasure>23</ram:GrossWeightMeasure>
+        <ram:CharacteristicCode>1</ram:CharacteristicCode>
+        <ram:AffixedLogisticsSeal/>
+        <ram:ReportedLogisticsStatus/>
+      </ram:UtilizedLogisticsTransportEquipment>
+      <ram:WarehouseStorageTransportEvent>
+        <ram:TypeCode listID="XXXXXXXXXX" listAgencyID="XXXXXXXXXX">XXXXXXXXXX</ram:TypeCode>
+        <ram:OccurrenceLogisticsLocation>
+          <ram:ID schemeID="XXXXXXXXXX" schemeAgencyID="XXXXXXXXXX">XXXXXXXXXX</ram:ID>
+        </ram:OccurrenceLogisticsLocation>
+      </ram:WarehouseStorageTransportEvent>
+    </ram:IncludedReferencedSupplyChainConsignment>
+    <ram:UtilizedLogisticsTransportEquipment>
+      <ram:ID>XXXXXXXXXX</ram:ID>
+      <ram:GrossWeightMeasure unitCode="KGM" unitCodeListVersionID="XXXXXXXXXX">23</ram:GrossWeightMeasure>
+      <ram:TareWeightMeasure unitCode="KGM" unitCodeListVersionID="XXXXXXXXXX">23</ram:TareWeightMeasure>
+      <ram:CharacteristicCode listID="8155" listAgencyID="6">1</ram:CharacteristicCode>
+      <ram:UsedCapacityCode listID="8169" listAgencyID="6">1</ram:UsedCapacityCode>
+      <ram:AffixedLogisticsSeal>
+        <ram:ID schemeID="XXXXXXXXXX" schemeAgencyID="XXXXXXXXXX">XXXXXXXXXX</ram:ID>
+        <ram:ConditionCode listID="4517" listAgencyID="6">1</ram:ConditionCode>
+        <ram:SealingPartyRoleCode listID="9303" listAgencyID="6">AA</ram:SealingPartyRoleCode>
+      </ram:AffixedLogisticsSeal>
+    </ram:UtilizedLogisticsTransportEquipment>
+    <ram:FinalDestinationTradeCountry>
+      <ram:ID schemeID="XXXXXXXXXX" schemeAgencyID="5">AD</ram:ID>
+      <ram:Name languageID="XXXXXXXXXX">XXXXXXXXXX</ram:Name>
+    </ram:FinalDestinationTradeCountry>
+    <ram:ExportTradeCountry>
+      <ram:ID schemeID="XXXXXXXXXX" schemeAgencyID="5">AD</ram:ID>
+      <ram:Name languageID="XXXXXXXXXX">XXXXXXXXXX</ram:Name>
+    </ram:ExportTradeCountry>
+  </rsm:SpecifiedSupplyChainConsignment>
+</rsm:COREOutput1>
